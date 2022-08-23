@@ -165,7 +165,7 @@ _________________________________________________________ -->
     $(document).ready(function () {
         $.getJSON('/orders', {}, function (data) {
                     $.each(data, function (index, element) {
-                        var selfRef = element._links.self.href;
+                        var selfRef = element._links[0].href;
                         var split = selfRef.split("/");
                         var id = split[split.length - 1];
                         $('#tableOrders').append('\
