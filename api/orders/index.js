@@ -28,7 +28,7 @@
               console.log("No orders found for user: " + custId);
               return callback(null, []);
             }
-            callback(null, JSON.parse(body)._embedded.customerOrders);
+            callback(null, JSON.parse(body));
           });
         }
     ],
@@ -50,7 +50,6 @@
     var logged_in = req.cookies.logged_in;
     if (!logged_in) {
       throw new Error("User not logged in.");
-      return
     }
 
     var custId = req.session.customerId;

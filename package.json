@@ -1,6 +1,6 @@
 {
   "name": "microservices-demo-front-end",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Front end for microservices demo application.",
   "main": "server.js",
   "scripts": {
@@ -10,11 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/weaveworks/microservices-demo"
+    "url": "https://github.com/cams7-tests/sockshop-front-end"
   },
   "contributors": [
-    "Ian Crosby <ian.daniel.crosby@gmail.com>",
-    "Carlos León <mail@carlosleon.info> (carlosleon.info)"
+    "César Magalhães <ceanma83@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {
